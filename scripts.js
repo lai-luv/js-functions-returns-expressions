@@ -8,9 +8,7 @@ function addNumbers(num1, num2) {
 const sum = addNumbers(5, 3);
 console.log(sum); 
 
-// Create a variable called largerSum and assign it the value of calling the addNumbers function with new arguments. The result should be a number larger than the value of the variable, sum.
-
-
+// Create a variable called largerSum. Assign it the return value from calling `addNumbers` with your own arguments. Choose arguments that will result in a larger number than the previous call (which put the return value in a variable called `sum`).
 
 
 
