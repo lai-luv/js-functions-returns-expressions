@@ -10,8 +10,8 @@ console.log(sum);
 
 // Create a variable called largerSum. Assign it the return value from calling `addNumbers` with your own arguments. Choose arguments that will result in a larger number than the previous call (which put the return value in a variable called `sum`).
 
-
-
+const largerSum = addNumbers(10,5)
+console.log(largerSum)
 
 
 /***********************  Exercise 2 ************************/
@@ -31,14 +31,14 @@ let user2 = {
 // Complete the function "greet" so that it returns the string "Welcome [NAME]! We are glad you are here." The function should be able to have user1 or user2 as an imput.
 
 function greet(name) {
-  return // your code here
+  return `welcome ${name}!`
 }
 
 // Call the function so that "Welcome Rose Smith! We are glad you are here." is returned from the function and stored in a variable. 
-
+console.log(greet(user1.name))
 
 // Call the function so that "Welcome Tabitha Daniels!  We are glad you are here." is returned from the function and stored in a variable.
-
+console.log(greet(user2.name))
 // Check both variables in the console. (With a console.log call or by evaluating the values directly in the console.)
 
 
